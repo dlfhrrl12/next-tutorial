@@ -4,6 +4,7 @@ export default function ProductList() {
   return (
     <>
       <div className="">
+        <Link href={"/"}>Home</Link>
         ProductList
         <Link href={"/product/1"}>product1</Link>
         <Link href={"/product/2"}>product1</Link>
