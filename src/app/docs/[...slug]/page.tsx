@@ -4,7 +4,6 @@ export default async function Docs({
   params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
-  console.log("slug >>", slug);
   if (slug?.length === 2) {
     return (
       <h1>
